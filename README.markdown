@@ -9,6 +9,7 @@ It features:
  - Handlebars precompilation
  - Dependencies via bower
  - Easy local server via PHP
+ - Support for `hashchange` and `history` routing out of the box.
 
 ## Dependencies
 

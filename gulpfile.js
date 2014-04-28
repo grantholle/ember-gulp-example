@@ -37,7 +37,12 @@ gulp.task('watch', function()
   gulp.watch('app/**/*.js', ['compile-app']);
 });
 
-gulp.task('php-server', bg("php", "-S", "localhost:8000", "-t", "public/"));
+gulp.task('php-server', bg(
+  "php",
+  "-S", "localhost:8000",
+  "-t", "public/",
+  "public/router.php"
+));
 
 gulp.task('default', [
   'js-dependencies',
