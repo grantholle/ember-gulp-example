@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "ember-precompile": "^0.2.4",
+    "gulp": "^3.6.0",
+    "gulp-bg": "0.0.4",
+    "gulp-concat": "^2.2.0"
+  }
+}
